@@ -32,6 +32,13 @@ body img{
 #packages p{
     font-size: xx-small;
 }
+#gallery img{
+   height: 200px;
+}
+#gallery h4{
+  text-align: center;
+}
+
 #about{
     background-image:linear-gradient(rgba(53, 52, 52, 0.187),rgba(85, 83, 83, 0.228),rgba(56, 55, 55, 0.237)), url("https://images.pexels.com/photos/357209/pexels-photo-357209.jpeg");
     background-size: cover;
@@ -54,4 +61,10 @@ body img{
     display: flex;
     float: right;
     justify-content: space-evenly;
+}
+.one{
+    text-align: center;
+}
+.two{
+    text-align:center;
 }
